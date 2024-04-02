@@ -210,4 +210,8 @@ footer {
 }
 
 
+::selection{
+    background-color: #fcffb8;
+    color: #c6aea2;
+}
 
