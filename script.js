@@ -42,3 +42,14 @@ document.getElementById('contact-link').addEventListener('click', function(event
     event.preventDefault();
     window.location.href = 'mailto:yogesh.jha0704@gmail.com';
 });
+
+document.addEventListener('keypress', (event)=>{
+    let keyCode = event.keyCode ? event.keyCode : event.which;
+
+    
+    if(keyCode === 13) {
+      
+      btn.click();
+    }
+      
+  });
