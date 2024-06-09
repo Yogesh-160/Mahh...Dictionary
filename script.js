@@ -26,7 +26,7 @@ btn.addEventListener('click', () => {
                ${data[0].meanings[0].definitions[0].example || ""}
             </p>`;
         sound.setAttribute("src", `${data[0].phonetics[0].audio}`);
-        console.log(sound);
+        // console.log(sound);
     })
     .catch(() => {
         output.innerHTML = `<h3 class="error">Couldn't Find the Word</h3>`;
